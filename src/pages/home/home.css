@@ -1,0 +1,28 @@
+.rowTwo {
+
+}
+.rowThree {
+    
+}
+.rowFive {
+    background-color:#eceff2;
+    width: 100%;
+}
+
+.itemImg {
+    width: 340px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.itemFive {
+    width: 40%;
+    margin: auto;
+    background-color: yellow;
+    
+}
+.ceoImg {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}

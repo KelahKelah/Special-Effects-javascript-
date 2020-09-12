@@ -1,2 +1,7 @@
-# Special-Effects-javascript-
-Special effects for wb apps using javascript
+# mobileBankApp
+* An application that helps you perform bank operations like 
+* Creat account
+* Create Deposite
+* Witdraw money from the account
+* Check you balance
+
