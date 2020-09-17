@@ -1,14 +1,24 @@
+.rowOne {
+    background-color: #0d1e2d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.custom-menu {
+    list-style: none;
+    display: flex;
+    background-color: teal;
+}
 .rowTwo {
-
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5em;
 }
 .rowThree {
-    
 }
 .rowFive {
     background-color:#eceff2;
     width: 100%;
 }
-
 .itemImg {
     width: 340px;
     height: 320px;
@@ -16,13 +26,18 @@
     border-radius: 2px;
 }
 .itemFive {
+    width: 100%;
+    /* background-color: yellow; */
+}
+.child {
+    /* background-color: violet;     */
+    text-align: center;
+    border-radius: 2px;
     width: 40%;
     margin: auto;
-    background-color: yellow;
-    
 }
 .ceoImg {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
