@@ -1,0 +1,14 @@
+.header-container {
+    background-color: yellow;
+    font-family: 'Noto Sans', sans-serif;
+}
+.intro {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+}
+.custom-menu {
+    list-style: none;
+    display: flex;
+    background-color: teal;
+}
