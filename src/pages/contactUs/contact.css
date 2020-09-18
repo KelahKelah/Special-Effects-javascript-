@@ -1,0 +1,27 @@
+.contact-container {
+    font-family: 'Noto Sans', sans-serif;
+    width: 100%;
+    /* background-color: teal; */
+}
+.form-container {
+    width: 50%;
+    margin: auto;
+    /* background-color: thistle; */
+}
+.name-field, .number-field, .email-field {
+    padding: 10px;
+    width: 100%;
+    border-style: none;
+    border-radius: 3px;
+    background-color:  #f7f9fa;
+    ;
+    /* background-color: yellow; */
+}
+.text-field {
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: #f7f9fa;
+    ;
+}
