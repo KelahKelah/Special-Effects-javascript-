@@ -2,6 +2,12 @@
     background-color: yellow;
     font-family: 'Noto Sans', sans-serif;
 }
+.rowOne {
+    background-color: #0d1e2d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
 .intro {
     font-family: 'Noto Sans', sans-serif;
     font-size: 3em;
