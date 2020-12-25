@@ -1,10 +1,15 @@
 .footer-wrap {
     border-top: solid black 2px;
 }
-.social {
-
+.footer-container {
+background-color: #FFF;
+font-family: 'Poppins', sans-serif;
 }
+
 .footer-copyright {
     background-color: #F4EDF2;
-
+}
+.socials-icons {
+    font-size: 2em;
+    color:#4B3049;
 }

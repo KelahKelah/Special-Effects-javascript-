@@ -17,7 +17,7 @@ function AboutUs() {
 
                 {/* SHOW SINGLE PRODUCT  */}
                 <div className="container-fluid py-5">
-                    <div className="row">
+                    <div className="row about-row">
                         <div className="col-ls-6 col-sm-6 about-text">
                             <p className="about-ceo-text py-4">Our company is brand of seasoned professionals out with the aim of bringing  unequivocal convenience to your homes and offices</p>                      
                         </div>
@@ -26,7 +26,7 @@ function AboutUs() {
                 
                 <div className="container-fluid about-container">
                     <div className="row">
-                        <div className="col-ls-6 col-sm-6 about-col">
+                        <div className="col-ls-12 col-sm-12 about-col">
                             <img src={Ceo} alt="ceo" className="ceo-img my-5" />
                             <p className="about-ceo-text py-4">"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
                             <p className="ceo-name-text">Nato Chukwu</p>
@@ -36,30 +36,24 @@ function AboutUs() {
 
 
             {/* OUR SERVICES  */}
-            <div className="about-us-info pt-170 pb-100 section-bg container">
-                <div className="row justify-content-between">
+            <div className="container">
+                <div className="row">
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-info mb-60">
-                            <div className="info-caption">
-                                <h4>Clean and Services</h4>
-                                <p>For each project we establish relationships with partners who we know will help us. </p>
-                            </div>
+                        <div className="info-caption">
+                            <h4>Clean and Services</h4>
+                            <p>For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-info mb-60">
-                            <div className="info-caption">
-                                <h4>Clean and Modern</h4>
-                                <p>For each project we establish relationships with partners who we know will help us. </p>
-                            </div>
+                        <div className="info-caption">
+                            <h4>Clean and Modern</h4>
+                            <p>For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-info mb-60">
-                            <div className="info-caption">
-                                <h4>Clean and Modern</h4>
-                                <p>For each project we establish relationships with partners who we know will help us. </p>
-                            </div>
+                        <div className="info-caption">
+                            <h4>Clean and Modern</h4>
+                            <p>For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
                 </div>

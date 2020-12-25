@@ -8,6 +8,7 @@
 .itemImg {
    width: 320px;
    height: 230px;
+   object-fit: cover;
 }
 .product-heading {
     font-size: 36px;
@@ -23,6 +24,11 @@
     color: #4B3049;
     font-size: 18px;
 }
+/* EDIT CUSTOM BOOTSTRAP BUTTON  */
+.btn-outline-primary {
+    color: #B08EAD;
+    border-color: #B08EAD;
+}
 .columm {
     background-color: pink;
 }
@@ -32,16 +38,21 @@
     position: absolute;
     left: 78px;
     top: 40px;
-    /* z-index: 1; */
 }
 .single-img-show-extention {
     width: 400px;
     height: 455px;
     background-color:#B08EAD;
 }
-.single-img-detail {
+.single-img-detail  {
     line-height: 4rem;
-    /* color: yellow;    */
+    color: #795376;
+    font-size: 2rem;
+}
+.single-product-price {
+    line-height: 4rem;
+    color: #795376;
+    font-size: 1.2rem;
 }
 .about-container {
     background-color: #B08EAD;
@@ -51,7 +62,7 @@
     height: 100px;
     border-radius: 50%;
     position: relative;
-    left: 50%
+    left: 50%;
 }
 .about-col {
     margin: auto;

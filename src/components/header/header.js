@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Link, withRouter} from 'react-router-dom';
+import {FaShoppingCart, FaSearch, FaCaretDown} from 'react-icons/fa'
 import './header.css';
-import Home from '../../pages/home/home';
-import AboutUs from '../../pages/aboutUs/aboutUs';
-import ContactUs from '../../pages/contactUs/contactUs';
+// import Home from '../../pages/home/home';
+// import AboutUs from '../../pages/aboutUs/aboutUs';
+// import ContactUs from '../../pages/contactUs/contactUs';
 
 class Header extends Component {
     // constructor(props) {
@@ -12,24 +13,29 @@ class Header extends Component {
 
     render() {
         return(
-            <div className="container-fluid header-container">
-                {/* <div className="row rowOne p-4" id="Nav">
-                    <div>
+            <div className="container-fluid header-container d-flex justify-content-around py-2">
+                <div className="row" id="Nav">
+                    <div className="p-3">
                         <div>Nate nateKings</div>
                     </div>
-                    <ul className="custom-menu py-3 mb-0">
-                        <BrowserRouter>
-                            <Link to="/home" component={Home}></Link> Home
-                            <Link to="/about" component={AboutUs}></Link> About Us
-                            <Link to="/contact" component={ContactUs}></Link> Contac Us
-                        </BrowserRouter>
-                    </ul>
+                    <div className="mx-5">
+                        <ul className="custom-menu p-3 mx-5 mb-0">
+                            <BrowserRouter>
+                                <Link className="menu-items px-4" to="/home">Home</Link> 
+                                <Link className="menu-items px-4" to="/about"> About Us</Link>
+                                <Link className="menu-items px-4" to="/products">Products<span><FaCaretDown /></span></Link> 
+                                <Link className="menu-items px-4" to="/contact">Contact Us</Link> 
+                            </BrowserRouter>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <ul className="p-3 mb-0">
+                            <FaShoppingCart className="header-icons mx-2" />
+                            <FaSearch className="header-icons mx-2" />
+                        </ul>
+                    </div>
                 </div>
-
-                <div className="row intro py-5" data-toggle="" data-target="#Nav">
-                    <div className="col-md-11">We focus on <span>Quality</span> design</div>
-                    <div className="col-md-1"><span>&times;</span></div>
-                </div> */}
 
             </div>
         )
