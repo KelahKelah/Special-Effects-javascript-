@@ -1,20 +1,21 @@
 .header-container {
-    background-color: yellow;
-    font-family: 'Noto Sans', sans-serif;
-}
-.rowOne {
-    background-color: #0d1e2d;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-}
-.intro {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 3em;
-    font-weight: 700;
+    background-color: #FFF;
+    font-family: 'Poppins', sans-serif;
 }
 .custom-menu {
     list-style: none;
     display: flex;
-    background-color: teal;
+}
+.menu-items {
+    cursor: pointer;
+    color: #4B3049;
+    font-size: 1.3em;
+
+}
+.header-icons {
+    font-size: 1.3rem;
+}
+a:hover {
+    color:#B08EAD;
+    text-decoration: none;
 }

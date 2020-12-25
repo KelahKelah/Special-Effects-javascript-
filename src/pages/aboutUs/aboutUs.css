@@ -1,9 +1,3 @@
-/* .aboutImg {
-    background-image: url("/src/assets/deco.jpg");
-}
-.about-us-info {
-    background-color: #0d1e2d;
-} */
 
 .about-container {
 
@@ -12,4 +6,13 @@
     /* background-color: teal; */
     text-align: center;
     font-size: 3em;
+    color: #fff;
 }
+.about-row {
+    display: flex;
+    justify-content: center;
+}
+/* .about-text {
+    display: flex;
+    justify-content: center;
+} */
