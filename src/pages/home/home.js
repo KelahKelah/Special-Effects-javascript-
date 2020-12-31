@@ -19,11 +19,11 @@ class Home extends Component {
                 {/* SHOW SINGLE PRODUCT ONE */}
                 <div className="container py-5">
                     <div className="row">
-                        <div className="col-lg-6 one">
+                        <div className="col-lg-6 col-sm-12">
                             <img src={CurtainOne} alt="" className="single-img-show" /> 
                             <div className="single-img-show-extention"></div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-sm-12">
                             <p className="single-product-price p-4">Started from N1000</p>
                             <h3 className="single-img-detail p-3">Printed memory foam brief modern throw pillow case</h3>
                             <button type="button" className="btn btn-outline-primary btn-lg m-5">Explore</button>
@@ -35,13 +35,13 @@ class Home extends Component {
                 <div className="container py-5">
                     <div className="row pb-5">
                         
-                        <div className="col-lg-6 two">
+                        <div className="col-lg-6 col-sm-12">
                             <p className="single-product-price p-4">Started from N1000</p>
                             <h3 className="single-img-detail p-3">Printed memory foam brief modern throw pillow case</h3>
                             <button type="button" className="btn btn-outline-primary btn-lg m-5">Explore</button>
                         </div>
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-sm-12">
                             <img src={Window} alt="" className="single-img-show" /> 
                             <div className="single-img-show-extention"></div>
                         </div>
@@ -56,41 +56,41 @@ class Home extends Component {
                     <div className="row product-row">
                         <div className="col-lg-4 col-sm-6">
                             <img src={CurtainTwo} className="img-fluid itemImg" />
-                            <h4 className="single-product-item" >Printed memory foam brief modern throw pillow case</h4>
-                            <p>From N1000</p>
+                            <h4 className="single-product-item" >Red and white Turkey curtains</h4>
+                            <p>From N13,500</p>
                         </div>
 
                         <div className="col-lg-4 col-sm-6">
                             <img src={CurtainSix} className="img-fluid itemImg" />
-                            <h4 className="single-product-item" >Printed memory foam brief modern throw pillow case</h4>
-                            <p>From N1000</p>
+                            <h4 className="single-product-item" >Poka dots Full length satin curtains</h4>
+                            <p>From N7000</p>
                         </div>   
 
                         <div className="col-lg-4 col-sm-6">
                             <div>
                                 <img src={CurtainFour} className="img-fluid itemImg" />
-                                <h4 className="single-product-item">Printed memory foam brief modern throw pillow case</h4>
-                                <p>From N1000</p>
+                                <h4 className="single-product-item">Cream Satin Full length curtains</h4>
+                                <p>From N10,500</p>
                             </div>                        
                         </div>
 
                         <div className="col-lg-4 col-sm-6">
                             <img src={CurtainThree} className="img-fluid itemImg" />
-                            <h4 className="single-product-item" >Printed memory foam brief modern throw pillow case</h4>
-                            <p>From N1000</p>
+                            <h4 className="single-product-item" >Off white satin full curtains</h4>
+                            <p>From N7,000</p>
                         </div>
 
                         <div className="col-lg-4 col-sm-6">
                             <img src={CurtainOne} className="img-fluid itemImg" />
-                            <h4 className="single-product-item" >Printed memory foam brief modern throw pillow case</h4>
-                            <p>From N1000</p>
+                            <h4 className="single-product-item" >Gray and cream London curtain</h4>
+                            <p>From N4,300</p>
                         </div>   
 
                         <div className="col-lg-4 col-sm-6">
                             <div>
                                 <img src={CurtainSeven} className="img-fluid itemImg" />
-                                <h4 className="single-product-item">Printed memory foam brief modern throw pillow case</h4>
-                                <p>From N1000</p>
+                                <h4 className="single-product-item">Flower green curtain</h4>
+                                <p>From N3000</p>
                             </div>                        
                         </div>
 
@@ -98,6 +98,7 @@ class Home extends Component {
 
                 </div>
 
+                {/* ABOUT CEO  */}
                 <div className="container-fluid about-container">
                     <div className="row">
                         <div className="col-ls-6 col-sm-6 about-col">
