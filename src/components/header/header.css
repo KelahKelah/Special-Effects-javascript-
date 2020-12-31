@@ -1,16 +1,35 @@
 .header-container {
     background-color: #FFF;
     font-family: 'Poppins', sans-serif;
+    display: flex;
 }
 .custom-menu {
     list-style: none;
     display: flex;
 }
+.menu-mobile-wrapper {
+    width: 102px;
+    height: 190px;
+    background-color: teal;
+}
+.custom-menu-mobile {
+    list-style: none;
+    display: inline;
+    background-color: violet;
+}
+.close {
+    background-color: yellow;
+}
 .menu-items {
     cursor: pointer;
     color: #4B3049;
     font-size: 1.3em;
-
+}
+mobile-menu-item {
+    cursor: pointer;
+    color: #4B3049;
+    font-size: 1.3em;
+    height: 80%;
 }
 .header-icons {
     font-size: 1.3rem;
@@ -18,4 +37,30 @@
 a:hover {
     color:#B08EAD;
     text-decoration: none;
+}
+/* .logo {
+    display: flex;
+} */
+.close {
+    width: 20px;
+    height: 23px;
+    border: solid 1px #333;
+    border-radius: 50%;
+    font-size: 1.3em;
+    text-align: center;
+
+}
+@media screen and (max-width: 769px) {
+    .menu {
+        display: none;
+        background-color: turquoise;
+    }
+    .hamburger-icon {
+        display: block;
+    }
+    .fixed-for-mobile {
+        position: fixed;
+        right: 210px;
+    }
+    
 }
