@@ -36,7 +36,7 @@ function AboutUs() {
 
 
             {/* OUR SERVICES  */}
-            <div className="container">
+            {/* <div className="container">
                 <div className="row">
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div className="info-caption">
@@ -57,7 +57,7 @@ function AboutUs() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
