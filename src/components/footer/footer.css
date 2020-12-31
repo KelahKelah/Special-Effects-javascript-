@@ -13,3 +13,10 @@ font-family: 'Poppins', sans-serif;
     font-size: 2em;
     color:#4B3049;
 }
+
+@media screen and (max-width: 769px) {
+    .custom-menu {
+        display: none;
+        background-color: tomato;
+    }
+}
