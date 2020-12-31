@@ -74,4 +74,16 @@
     line-height: 2.5rem;
 }
 
+@media screen and (max-width: 769px) {
+    .single-img-show-extention {
+         width: 204px;
+        height: 201px;
+        background-color: tomato;
+    }
+    .single-img-show {
+        width: 234px;
+        height: 180px;
+        background-color: teal;
+    }
+}
 
