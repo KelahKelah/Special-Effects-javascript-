@@ -23,7 +23,7 @@ class Home extends Component {
                             <img src={CurtainOne} alt="" className="single-img-show" /> 
                             <div className="single-img-show-extention"></div>
                         </div>
-                        <div className="col-lg-6 col-sm-12">
+                        <div className="col-lg-6 col-sm-12 fadein-animation">
                             <p className="single-product-price p-4">Started from N1000</p>
                             <h3 className="single-img-detail p-3">Printed memory foam brief modern throw pillow case</h3>
                             <button type="button" className="btn btn-outline-primary btn-lg m-5">Explore</button>
@@ -35,7 +35,7 @@ class Home extends Component {
                 <div className="container py-5">
                     <div className="row pb-5">
                         
-                        <div className="col-lg-6 col-sm-12">
+                        <div className="col-lg-6 col-sm-12 fadein-animation">
                             <p className="single-product-price p-4">Started from N1000</p>
                             <h3 className="single-img-detail p-3">Printed memory foam brief modern throw pillow case</h3>
                             <button type="button" className="btn btn-outline-primary btn-lg m-5">Explore</button>

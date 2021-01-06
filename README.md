@@ -1,3 +1,3 @@
-A Simple conpany website
+A ecommerce website
 
 

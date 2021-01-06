@@ -38,6 +38,11 @@
     position: absolute;
     left: 78px;
     top: 40px;
+    transition: all 1s;
+}
+.single-img-show:hover {
+    height: 435px;
+
 }
 .single-img-show-extention {
     width: 400px;
@@ -73,7 +78,27 @@
     text-align: center;
     line-height: 2.5rem;
 }
-
+.img-fluid {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.img-fluid:hover {
+    opacity: 1;
+}
+/* FADE IN ANIMATION  */
+.fadein-animation {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 @media screen and (max-width: 769px) {
     .single-img-show-extention {
          width: 204px;
