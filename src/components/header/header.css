@@ -12,6 +12,9 @@
     height: 190px;
     background-color: teal;
 }
+.mobile-menu-items {
+    cursor: pointer;
+}
 .custom-menu-mobile {
     list-style: none;
     display: inline;
@@ -38,9 +41,6 @@ a:hover {
     color:#B08EAD;
     text-decoration: none;
 }
-/* .logo {
-    display: flex;
-} */
 .close {
     width: 20px;
     height: 23px;
@@ -48,7 +48,6 @@ a:hover {
     border-radius: 50%;
     font-size: 1.3em;
     text-align: center;
-
 }
 @media screen and (max-width: 769px) {
     .menu {
