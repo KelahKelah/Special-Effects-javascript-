@@ -10,15 +10,17 @@ import {Switch, BrowserRouter, Route, Link} from 'react-router-dom';
 function App() {
   return (
     <div>
-      <Header />
+      
       <BrowserRouter>
+      <Header />
       <Switch>
+
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
         <Route path="/about" component={AboutUs} />
         <Route path="/contact" component={ContactUs} />
         <Route path="/products" component={Products} />
-
+        {/* <Route path="/header" component={Header} /> */}
       </Switch>
       </BrowserRouter>
       <Footer />
