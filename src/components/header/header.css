@@ -31,6 +31,9 @@
     font-size: 1.3em;
     height: 80%;
 }
+.hamburger-icon {
+    display: none;
+}
 .header-icons {
     font-size: 1.3rem;
 }
