@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Link, withRouter} from 'react-router-dom';
-import {FaShoppingCart, FaSearch, FaCaretDown, FaBars} from 'react-icons/fa'
+import {FaShoppingCart, FaSearch, FaCaretDown, FaBars} from 'react-icons/fa';
 import './header.css';
 
 
@@ -13,7 +13,13 @@ class Header extends Component {
         }
     }
 
+    handleRoutes = (path) => {
+        this.props.history.push(path)
+    }
+
     render() {
+        console.log('value of this.props',this.props)
+
         return(
             <div className="container-fluid header-container d-flex justify-content-around py-2">
                 <div className="row" id="Nav">
@@ -22,12 +28,10 @@ class Header extends Component {
                     </div>
                     <div className="mx-5 menu">
                         <ul className="custom-menu p-3 mx-5 mb-0">
-                            <BrowserRouter>
-                                <Link className="menu-items px-4" to="/home">Home</Link> 
-                                <Link className="menu-items px-4" to="/about"> About Us</Link>
-                                <Link className="menu-items px-4" to="/products">Products<span><FaCaretDown /></span></Link> 
-                                <Link className="menu-items px-4" to="/contact">Contact Us</Link> 
-                            </BrowserRouter>
+                            <div className="mobile-menu-items px-4" onClick={()=>this.handleRoutes("/home")} >Home</div>
+                            <div className="mobile-menu-items px-4" onClick={()=>this.handleRoutes("/about")} >About</div>
+                            <div className="mobile-menu-items px-4" onClick={()=>this.handleRoutes("/products")} >Products</div>
+                            <div className="mobile-menu-items px-4" onClick={()=>this.handleRoutes("/contact")} >Contact</div>
                         </ul>
                     </div>
 
@@ -36,12 +40,11 @@ class Header extends Component {
                     <div className="mx-5 menu-mobile-wrapper" id="mobile-id">
                         <p className="close" onClick={() => this.setState({showMobileMenu: false})}>x</p>
                         <ul className="custom-menu-mobile mb-0">
-                            <BrowserRouter>
-                                <Link className="mobile-menu-items" to="/home">Home</Link> 
-                                <Link className="mobile-menu-items" to="/about"> About Us</Link>
-                                <Link className="mobile-menu-items" to="/products">Products<span><FaCaretDown /></span></Link> 
-                                <Link className="mobile-menu-items" to="/contact">Contact Us</Link> 
-                            </BrowserRouter>
+                        {/* <BrowserRouter>  */}
+                            <div className="mobile-menu-items px-4" onClick={this.handleRoutes("/home")} >Home</div>
+                            <div className="mobile-menu-items px-4" onClick={this.handleRoutes("/about")} >About</div>
+                            <div className="mobile-menu-items px-4" onClick={this.handleRoutes("/products")} >Products</div>
+                            <div className="mobile-menu-items px-4" onClick={this.handleRoutes("/contact")} >Contact</div>
                         </ul>
                     </div>
                     // {/* MOBILE MENU ENDS  */}
@@ -62,4 +65,4 @@ class Header extends Component {
         )
     }
 }
-export default Header;
+export default withRouter(Header);
