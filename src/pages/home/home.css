@@ -1,5 +1,5 @@
 .products-container {
-    background-color: #F4EDF2
+    background-color: #f2f2f2;
 }
 .product-row {
     width: 75%;
@@ -12,7 +12,7 @@
 }
 .product-heading {
     font-size: 36px;
-    color: #4B3049;
+    color: #22262b;
     line-height: 27px;
     font-weight: 900;
     position: relative;
@@ -21,13 +21,13 @@
     font-family: 'Poppins', sans-serif;
 }
 .single-product-item {
-    color: #4B3049;
+    color: #204060;
     font-size: 18px;
 }
 /* EDIT CUSTOM BOOTSTRAP BUTTON  */
 .btn-outline-primary {
-    color: #B08EAD;
-    border-color: #B08EAD;
+    color: #faba00;
+    border-color: #faba00;
 }
 .columm {
     background-color: pink;
@@ -42,25 +42,24 @@
 }
 .single-img-show:hover {
     height: 435px;
-
 }
 .single-img-show-extention {
     width: 400px;
     height: 455px;
-    background-color:#B08EAD;
+    background-color:#204060;
 }
 .single-img-detail  {
     line-height: 4rem;
-    color: #795376;
+    color: #22262b;
     font-size: 2rem;
 }
 .single-product-price {
     line-height: 4rem;
-    color: #795376;
+    color: #545454;
     font-size: 1.2rem;
 }
-.about-container {
-    background-color: #B08EAD;
+.product-price {
+    color: #b38600;
 }
 .ceo-img {
     width: 100px;
@@ -68,15 +67,16 @@
     border-radius: 50%;
     position: relative;
     left: 50%;
+    object-fit: cover;
 }
 .about-col {
     margin: auto;
     width: 100%;
-    /* background-color: yellow; */
 }
 .about-ceo-text, .ceo-name-text {
     text-align: center;
     line-height: 2.5rem;
+    color: #fff;
 }
 .img-fluid {
     opacity: 0.6;
@@ -99,11 +99,14 @@
         opacity: 1;
     }
 }
+
+/* // */
+
 @media screen and (max-width: 769px) {
     .single-img-show-extention {
          width: 204px;
         height: 201px;
-        background-color: tomato;
+        background-color:#204060;
     }
     .single-img-show {
         width: 234px;
