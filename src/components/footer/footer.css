@@ -5,15 +5,14 @@
 background-color: #FFF;
 font-family: 'Poppins', sans-serif;
 }
-
 .footer-copyright {
-    background-color: #F4EDF2;
+    background-color: #faba00;
 }
 .socials-icons {
     font-size: 2em;
-    color:#4B3049;
+    /* color:#4B3049; */
+    color: #19334d;
 }
-
 @media screen and (max-width: 769px) {
     .custom-menu {
         display: none;

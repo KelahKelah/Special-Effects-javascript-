@@ -1,5 +1,5 @@
 import React from 'react';
-import Ceo from '../../assets/ceo.jpg';
+import Ceo from '../../assets/ceo.jpeg';
 import './aboutUs.css';
 
 // Using functional Component because we only need ui no logic 
@@ -19,17 +19,17 @@ function AboutUs() {
                 <div className="container-fluid py-5">
                     <div className="row about-row">
                         <div className="col-ls-6 col-sm-6 about-text">
-                            <p className="about-ceo-text py-4">Our company is brand of seasoned professionals out with the aim of bringing  unequivocal convenience to your homes and offices</p>                      
+                            <p className="about-us-text py-4">Our company is brand of seasoned professionals out with the aim of bringing  unequivocal convenience to your homes and offices. We are the best Interior Designers in Nigeria.</p>                      
                         </div>
                     </div>
                 </div>
                 
                 <div className="container-fluid about-container">
                     <div className="row">
-                        <div className="col-ls-12 col-sm-12 about-col">
+                        <div className="col-ls-6 col-sm-6 about-col">
                             <img src={Ceo} alt="ceo" className="ceo-img my-5" />
-                            <p className="about-ceo-text py-4">"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
-                            <p className="ceo-name-text">Nato Chukwu</p>
+                            <p className="about-ceo-text py-4">A certified interior decoration expert for over a decaded.He also has great passion of community development and always ready to beautify your home</p>
+                            <p className="ceo-name-text">Nnaeto Brendan Ezeokwelume</p>
                         </div>
                     </div>
                 </div>

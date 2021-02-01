@@ -1,9 +1,7 @@
-
 .about-container {
-
+    background-color: #204060;
 }
 .about-heading {
-    /* background-color: teal; */
     text-align: center;
     font-size: 3em;
     color: #fff;
@@ -12,7 +10,8 @@
     display: flex;
     justify-content: center;
 }
-/* .about-text {
-    display: flex;
-    justify-content: center;
-} */
+.about-us-text {
+    text-align: center;
+    line-height: 2.5rem;
+    color: #22262b;
+}

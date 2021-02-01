@@ -20,10 +20,11 @@ function App() {
         <Route path="/about" component={AboutUs} />
         <Route path="/contact" component={ContactUs} />
         <Route path="/products" component={Products} />
-        {/* <Route path="/header" component={Header} /> */}
+        {/* <Route path="/footer" component={Footer} /> */}
       </Switch>
-      </BrowserRouter>
       <Footer />
+      </BrowserRouter>
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -1,27 +1,51 @@
 .contact-container {
-    font-family: 'Noto Sans', sans-serif;
+    background-color: #204060;
+}
+
+.contact-row {
+    width: 70%;
+    margin: auto;
+}
+.contact-container1 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    height: 550px;
+    position: relative;
+    left: 20%;
+    z-index: 1;
+}
+.semi-container {
+    height: 80%;
     width: 100%;
-    /* background-color: teal; */
+    background-color: #204060;
 }
 .form-container {
-    width: 50%;
-    margin: auto;
-    /* background-color: thistle; */
+    width: 65%;
+    display: block;
+    background-color: #e6e6e6;
 }
-.name-field, .number-field, .email-field {
+.name-field, .number-field, .email-field, .text-field {
     padding: 10px;
-    width: 100%;
     border-style: none;
     border-radius: 3px;
     background-color:  #f7f9fa;
-    ;
-    /* background-color: yellow; */
 }
-.text-field {
-    width: 100%;
-    padding: 10px;
-    border-style: none;
-    border-radius: 3px;
-    background-color: #f7f9fa;
-    ;
+.contact-item-wrapper {
+    color: #f7f9fa;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+    .name-field, .number-field, .email-field, .text-field {
+        width: 100%;
+    }
+    .contact-container1 {
+        display: none;
+    }
+    .form-container {
+        width: 100%;
+    }
 }
